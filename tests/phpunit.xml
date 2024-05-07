@@ -24,6 +24,10 @@
     stopOnIncomplete="false"
     stopOnSkipped="false"
 >
+<!--    <extensions>-->
+<!--        <bootstrap class="Symfony\Component\Panther\ServerExtension" />-->
+<!--    </extensions>-->
+    <php><env name="XDEBUG_MODE" value="off"/></php> <!-- Otherwise .phpt tests with var_dump() fail. See https://github.com/sebastianbergmann/phpunit/issues/4971 -->
     <coverage includeUncoveredFiles="true"/>
     <source>
         <include>

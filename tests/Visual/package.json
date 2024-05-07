@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.4",
+    "cypress-visual-regression": "^5.0.0"
+  },
+  "scripts": {
+    "cy:run:base": "cypress_visualRegressionType=base cypress run  --config baseUrl=http://localhost:8080",
+    "cy:open:base": "cypress_visualRegressionType=base cypress open  --config baseUrl=https://php.net",
+    "cy:run:regression": "cypress_visualRegressionType=regression cypress run --config baseUrl=http://localhost:8080",
+    "cy:open": "cypress open"
+  }
+}

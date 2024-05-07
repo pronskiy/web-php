@@ -1,39 +1,17 @@
 <?php
-
-
-
-
-
-
-
-
-
-/*
- * DO NOT MODIFY THIS FILE
- * This file is automagically generated, and overwritten,
- * by the rsync box. It is only included in this repo to simplify getting
- * up and running on your localhost without needing to generate all this
- * yourself from master.
-*/
-
-
-
-
-
-
-
-
-
 $CONF_TEASER = array (
-  'conference' =>
+  'conference' => 
   array (
-    'http://php.net/conferences/index.php#id2015-10-15-3' => 'PhpConference Brasil 2015',
-    'http://php.net/conferences/index.php#id2015-10-15-1' => 'PHP Frameworks Day 2015',
-    'http://php.net/conferences/index.php#id2015-10-07-1' => 'SunshinePHP 2016',
-    'http://php.net/conferences/index.php#id2015-08-31-1' => 'International PHP Conference 2015',
-    'http://php.net/conferences/index.php#id2015-06-29-1' => 'php[world] 2015 Schedule Announced',
-    'http://php.net/conferences/index.php#id2015-06-23-1' => 'Madison PHP Conference 2015',
-    'http://php.net/conferences/index.php#id2015-06-19-1' => 'ZendCon 2015',
-    'http://php.net/conferences/index.php#id2015-06-01-1' => 'PHP Barcelona Conference 2015',
+    'https://www.php.net/conferences/index.php#2024-01-24-1' => 'PHP UK Conference 2024',
+    'https://www.php.net/conferences/index.php#2024-01-20-1' => 'PHP Conference Odawara 2024',
+    'https://www.php.net/conferences/index.php#id2024-01-15-3' => 'SymfonyCon Vienna 2024',
+    'https://www.php.net/conferences/index.php#id2024-01-15-2' => 'SymfonyLive Paris 2024',
+    'https://www.php.net/conferences/index.php#2024-01-13-1' => 'Web Summer Camp 2024',
+    'https://www.php.net/conferences/index.php#2024-01-12-1' => 'Laravel Live Denmark 2024',
+    'https://www.php.net/conferences/index.php#2024-01-07-1' => 'PHP Conference Fukuoka 2024',
+    'https://www.php.net/conferences/index.php#2024-01-06-1' => 'PHP Conference Kagawa 2024',
+    'https://www.php.net/conferences/index.php#2024-01-05-1' => 'Drupal Mountain Camp 2024',
+    'https://www.php.net/conferences/index.php#2023-11-22-1' => 'International PHP Conference Berlin 2024',
   ),
-);
+)
+?>

@@ -1,0 +1,106 @@
+#!/bin/sh
+
+export FIG_PID='68353'
+export MANPATH='/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man:/opt/homebrew/share/man::'
+export LESS_TERMCAP_md='[38;5;136m'
+export TERM='xterm-256color'
+export SHELL='/bin/bash'
+export CLICOLOR='1'
+export HISTSIZE='32768'
+export FIGTERM_SESSION_ID='002e3c61-87b0-4418-afec-08f8ee8e8a3e'
+export MAKEFLAGS=''
+export HOMEBREW_REPOSITORY='/opt/homebrew'
+export TMPDIR='/var/folders/89/dyv9lh291b7dmhx3gt7_0hqr0000gn/T/'
+export CONDA_SHLVL='1'
+export CONDA_PROMPT_MODIFIER='(base) '
+export _INTELLIJ_FORCE_PREPEND_PATH='/opt/homebrew/bin:'
+export TERM_SESSION_ID='ccd78c8c-8343-47b7-9069-6015f49bc222'
+export HTTP_HOST='localhost:8080'
+export LC_ALL='en_US.UTF-8'
+export FIG_SET_PARENT_CHECK='1'
+export USER='pronskiy'
+export PYTHONIOENCODING='UTF-8'
+export HISTFILESIZE='32768'
+export LS_COLORS='no=00:fi=00:di=01;31:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
+export COMMAND_MODE='unix2003'
+export CURDIR='/Users/pronskiy/projects/php.net/web-php'
+export CONDA_EXE='/Users/pronskiy/miniconda3/bin/conda'
+export NODE_REPL_MODE='sloppy'
+export SSH_AUTH_SOCK='deleted'
+export __CF_USER_TEXT_ENCODING='0x1F5:0x0:0x0'
+export MAKELEVEL='1'
+export BASH_SILENCE_DEPRECATION_WARNING='1'
+export MFLAGS=''
+export _CE_CONDA=''
+export LSCOLORS='GxFxCxDxBxegedabagaced'
+export PATH='/opt/homebrew/bin:/opt/homebrew/sbin:/Users/pronskiy/bin:/opt/homebrew/bin:/Users/pronskiy/miniconda3/bin:/Users/pronskiy/miniconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/pronskiy/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/opt/python@3.11/libexec/bin:/Applications/Little Snitch.app/Contents/Components:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/pronskiy/.fig/bin:/Users/pronskiy/.local/bin:/Users/pronskiy/Library/Application Support/JetBrains/Toolbox/scripts:/Users/pronskiy/Library/Application Support/JetBrains/Toolbox/scripts'
+export TERMINAL_EMULATOR='JetBrains-JediTerm'
+export IJ_RESTARTER_LOG='/Users/pronskiy/Library/Logs/JetBrains/PhpStorm2023.3/restarter.log'
+export CONDA_PREFIX='/Users/pronskiy/miniconda3'
+export __CFBundleIdentifier='com.jetbrains.PhpStorm'
+export PWD='/Users/pronskiy/projects/php.net/web-php'
+export TTY='/dev/ttys012'
+export EDITOR='vim'
+export LANG='en_US.UTF-8'
+export FIG_SCRIPTS_KEYBIND='^f'
+export XPC_FLAGS='0x0'
+export PS3='\[]697;StartPrompt\]\[]697;EndPrompt\]\[]697;NewCmd=002e3c61-87b0-4418-afec-08f8ee8e8a3e\]'
+export _CE_M=''
+export XPC_SERVICE_NAME='0'
+export HISTCONTROL='ignoreboth'
+export GPG_TTY='/dev/ttys012'
+export SHLVL='2'
+export HOME='/Users/pronskiy'
+export MANPAGER='less -X'
+export HOMEBREW_PREFIX='/opt/homebrew'
+export IDEA_INITIAL_DIRECTORY='/'
+export CONDA_PYTHON_EXE='/Users/pronskiy/miniconda3/bin/python'
+export LOGNAME='pronskiy'
+export NODE_REPL_HISTORY='/Users/pronskiy/.node_history'
+export LC_CTYPE='UTF-8'
+export CONDA_DEFAULT_ENV='base'
+export MAKEFILE_LIST=' Makefile'
+export HOMEBREW_CELLAR='/opt/homebrew/Cellar'
+export INFOPATH='/opt/homebrew/share/info:/opt/homebrew/share/info:'
+export NODE_REPL_HISTORY_SIZE='32768'
+export FIG_TERM='2.12.0'
+export _='/opt/homebrew/bin/php'
+export SSH_CLIENT='deleted'
+export SSH_TTY='deleted'
+export SSH_CONNECTION='deleted'
+export TEMP='/var/folders/89/dyv9lh291b7dmhx3gt7_0hqr0000gn/T'
+export NO_INTERACTION='1'
+export TEST_PHP_EXECUTABLE='/opt/homebrew/Cellar/php/8.3.0/bin/php'
+export TEST_PHP_EXECUTABLE_ESCAPED=''\''/opt/homebrew/Cellar/php/8.3.0/bin/php'\'''
+export TEST_PHP_CGI_EXECUTABLE='/opt/homebrew/Cellar/php/8.3.0/bin/php-cgi'
+export TEST_PHP_CGI_EXECUTABLE_ESCAPED=''\''/opt/homebrew/Cellar/php/8.3.0/bin/php-cgi'\'''
+export TEST_PHPDBG_EXECUTABLE='/opt/homebrew/Cellar/php/8.3.0/bin/phpdbg'
+export TEST_PHPDBG_EXECUTABLE_ESCAPED=''\''/opt/homebrew/Cellar/php/8.3.0/bin/phpdbg'\'''
+export REDIRECT_STATUS='1'
+export QUERY_STRING=''
+export PATH_TRANSLATED='/Users/pronskiy/projects/php.net/web-php/tests/EndToEnd/paths-return-http-response-status-code-200.php'
+export SCRIPT_FILENAME='/Users/pronskiy/projects/php.net/web-php/tests/EndToEnd/paths-return-http-response-status-code-200.php'
+export REQUEST_METHOD='GET'
+export CONTENT_TYPE=''
+export CONTENT_LENGTH=''
+export TZ=''
+export TEST_PHP_EXTRA_ARGS='  -d "opcache.cache_id=worker1" -d "output_handler=" -d "open_basedir=" -d "disable_functions=" -d "output_buffering=Off" -d "error_reporting=32767" -d "display_errors=1" -d "display_startup_errors=1" -d "log_errors=0" -d "html_errors=0" -d "track_errors=0" -d "report_memleaks=1" -d "report_zend_debug=0" -d "docref_root=" -d "docref_ext=.html" -d "error_prepend_string=" -d "error_append_string=" -d "auto_prepend_file=" -d "auto_append_file=" -d "ignore_repeated_errors=0" -d "precision=14" -d "serialize_precision=-1" -d "memory_limit=128M" -d "opcache.fast_shutdown=0" -d "opcache.file_update_protection=0" -d "opcache.revalidate_freq=0" -d "opcache.jit_hot_loop=1" -d "opcache.jit_hot_func=1" -d "opcache.jit_hot_return=1" -d "opcache.jit_hot_side_exit=1" -d "opcache.jit_max_root_traces=100000" -d "opcache.jit_max_side_traces=100000" -d "opcache.jit_max_exit_counters=100000" -d "opcache.protect_memory=1" -d "zend.assertions=1" -d "zend.exception_ignore_args=0" -d "zend.exception_string_param_max_len=15" -d "short_open_tag=0" -d "session.auto_start=0" -d "tidy.clean_output=0" -d "zlib.output_compression=Off" -d "xdebug.mode=off"'
+export HTTP_COOKIE=''
+
+case "$1" in
+"gdb")
+    gdb --args '/opt/homebrew/Cellar/php/8.3.0/bin/php'    -d "opcache.cache_id=worker1" -d "output_handler=" -d "open_basedir=" -d "disable_functions=" -d "output_buffering=Off" -d "error_reporting=32767" -d "display_errors=1" -d "display_startup_errors=1" -d "log_errors=0" -d "html_errors=0" -d "track_errors=0" -d "report_memleaks=1" -d "report_zend_debug=0" -d "docref_root=" -d "docref_ext=.html" -d "error_prepend_string=" -d "error_append_string=" -d "auto_prepend_file=" -d "auto_append_file=" -d "ignore_repeated_errors=0" -d "precision=14" -d "serialize_precision=-1" -d "memory_limit=128M" -d "opcache.fast_shutdown=0" -d "opcache.file_update_protection=0" -d "opcache.revalidate_freq=0" -d "opcache.jit_hot_loop=1" -d "opcache.jit_hot_func=1" -d "opcache.jit_hot_return=1" -d "opcache.jit_hot_side_exit=1" -d "opcache.jit_max_root_traces=100000" -d "opcache.jit_max_side_traces=100000" -d "opcache.jit_max_exit_counters=100000" -d "opcache.protect_memory=1" -d "zend.assertions=1" -d "zend.exception_ignore_args=0" -d "zend.exception_string_param_max_len=15" -d "short_open_tag=0" -d "session.auto_start=0" -d "tidy.clean_output=0" -d "zlib.output_compression=Off" -d "xdebug.mode=off" -f "/Users/pronskiy/projects/php.net/web-php/tests/EndToEnd/paths-return-http-response-status-code-200.php"  2>&1
+    ;;
+"lldb")
+    lldb -- '/opt/homebrew/Cellar/php/8.3.0/bin/php'    -d "opcache.cache_id=worker1" -d "output_handler=" -d "open_basedir=" -d "disable_functions=" -d "output_buffering=Off" -d "error_reporting=32767" -d "display_errors=1" -d "display_startup_errors=1" -d "log_errors=0" -d "html_errors=0" -d "track_errors=0" -d "report_memleaks=1" -d "report_zend_debug=0" -d "docref_root=" -d "docref_ext=.html" -d "error_prepend_string=" -d "error_append_string=" -d "auto_prepend_file=" -d "auto_append_file=" -d "ignore_repeated_errors=0" -d "precision=14" -d "serialize_precision=-1" -d "memory_limit=128M" -d "opcache.fast_shutdown=0" -d "opcache.file_update_protection=0" -d "opcache.revalidate_freq=0" -d "opcache.jit_hot_loop=1" -d "opcache.jit_hot_func=1" -d "opcache.jit_hot_return=1" -d "opcache.jit_hot_side_exit=1" -d "opcache.jit_max_root_traces=100000" -d "opcache.jit_max_side_traces=100000" -d "opcache.jit_max_exit_counters=100000" -d "opcache.protect_memory=1" -d "zend.assertions=1" -d "zend.exception_ignore_args=0" -d "zend.exception_string_param_max_len=15" -d "short_open_tag=0" -d "session.auto_start=0" -d "tidy.clean_output=0" -d "zlib.output_compression=Off" -d "xdebug.mode=off" -f "/Users/pronskiy/projects/php.net/web-php/tests/EndToEnd/paths-return-http-response-status-code-200.php"  2>&1
+    ;;
+"valgrind")
+    USE_ZEND_ALLOC=0 valgrind $2 '/opt/homebrew/Cellar/php/8.3.0/bin/php'    -d "opcache.cache_id=worker1" -d "output_handler=" -d "open_basedir=" -d "disable_functions=" -d "output_buffering=Off" -d "error_reporting=32767" -d "display_errors=1" -d "display_startup_errors=1" -d "log_errors=0" -d "html_errors=0" -d "track_errors=0" -d "report_memleaks=1" -d "report_zend_debug=0" -d "docref_root=" -d "docref_ext=.html" -d "error_prepend_string=" -d "error_append_string=" -d "auto_prepend_file=" -d "auto_append_file=" -d "ignore_repeated_errors=0" -d "precision=14" -d "serialize_precision=-1" -d "memory_limit=128M" -d "opcache.fast_shutdown=0" -d "opcache.file_update_protection=0" -d "opcache.revalidate_freq=0" -d "opcache.jit_hot_loop=1" -d "opcache.jit_hot_func=1" -d "opcache.jit_hot_return=1" -d "opcache.jit_hot_side_exit=1" -d "opcache.jit_max_root_traces=100000" -d "opcache.jit_max_side_traces=100000" -d "opcache.jit_max_exit_counters=100000" -d "opcache.protect_memory=1" -d "zend.assertions=1" -d "zend.exception_ignore_args=0" -d "zend.exception_string_param_max_len=15" -d "short_open_tag=0" -d "session.auto_start=0" -d "tidy.clean_output=0" -d "zlib.output_compression=Off" -d "xdebug.mode=off" -f "/Users/pronskiy/projects/php.net/web-php/tests/EndToEnd/paths-return-http-response-status-code-200.php"  2>&1
+    ;;
+"rr")
+    rr record $2 '/opt/homebrew/Cellar/php/8.3.0/bin/php'    -d "opcache.cache_id=worker1" -d "output_handler=" -d "open_basedir=" -d "disable_functions=" -d "output_buffering=Off" -d "error_reporting=32767" -d "display_errors=1" -d "display_startup_errors=1" -d "log_errors=0" -d "html_errors=0" -d "track_errors=0" -d "report_memleaks=1" -d "report_zend_debug=0" -d "docref_root=" -d "docref_ext=.html" -d "error_prepend_string=" -d "error_append_string=" -d "auto_prepend_file=" -d "auto_append_file=" -d "ignore_repeated_errors=0" -d "precision=14" -d "serialize_precision=-1" -d "memory_limit=128M" -d "opcache.fast_shutdown=0" -d "opcache.file_update_protection=0" -d "opcache.revalidate_freq=0" -d "opcache.jit_hot_loop=1" -d "opcache.jit_hot_func=1" -d "opcache.jit_hot_return=1" -d "opcache.jit_hot_side_exit=1" -d "opcache.jit_max_root_traces=100000" -d "opcache.jit_max_side_traces=100000" -d "opcache.jit_max_exit_counters=100000" -d "opcache.protect_memory=1" -d "zend.assertions=1" -d "zend.exception_ignore_args=0" -d "zend.exception_string_param_max_len=15" -d "short_open_tag=0" -d "session.auto_start=0" -d "tidy.clean_output=0" -d "zlib.output_compression=Off" -d "xdebug.mode=off" -f "/Users/pronskiy/projects/php.net/web-php/tests/EndToEnd/paths-return-http-response-status-code-200.php"  2>&1
+    ;;
+*)
+    '/opt/homebrew/Cellar/php/8.3.0/bin/php'    -d "opcache.cache_id=worker1" -d "output_handler=" -d "open_basedir=" -d "disable_functions=" -d "output_buffering=Off" -d "error_reporting=32767" -d "display_errors=1" -d "display_startup_errors=1" -d "log_errors=0" -d "html_errors=0" -d "track_errors=0" -d "report_memleaks=1" -d "report_zend_debug=0" -d "docref_root=" -d "docref_ext=.html" -d "error_prepend_string=" -d "error_append_string=" -d "auto_prepend_file=" -d "auto_append_file=" -d "ignore_repeated_errors=0" -d "precision=14" -d "serialize_precision=-1" -d "memory_limit=128M" -d "opcache.fast_shutdown=0" -d "opcache.file_update_protection=0" -d "opcache.revalidate_freq=0" -d "opcache.jit_hot_loop=1" -d "opcache.jit_hot_func=1" -d "opcache.jit_hot_return=1" -d "opcache.jit_hot_side_exit=1" -d "opcache.jit_max_root_traces=100000" -d "opcache.jit_max_side_traces=100000" -d "opcache.jit_max_exit_counters=100000" -d "opcache.protect_memory=1" -d "zend.assertions=1" -d "zend.exception_ignore_args=0" -d "zend.exception_string_param_max_len=15" -d "short_open_tag=0" -d "session.auto_start=0" -d "tidy.clean_output=0" -d "zlib.output_compression=Off" -d "xdebug.mode=off" -f "/Users/pronskiy/projects/php.net/web-php/tests/EndToEnd/paths-return-http-response-status-code-200.php"  2>&1
+    ;;
+esac
