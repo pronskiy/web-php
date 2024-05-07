@@ -21,7 +21,7 @@ help: ## Displays this list of targets with descriptions
 tests: vendor ## Runs unit and end-to-end tests with phpunit/phpunit
 	vendor/bin/phpunit --configuration=tests/phpunit.xml --testsuite=unit
 	rm -rf tests/server.log
-	tests/server start; vendor/bin/phpunit --configuration=tests/phpunit.xml --testsuite=end-to-end; tests/server stop
+	tests/server start; vendor/bin/phpunit --configuration=tests/phpunit.xml --testsuite=end-to-end,visual; tests/server stop
 
 vendor: composer.json composer.lock
 	composer validate --strict
