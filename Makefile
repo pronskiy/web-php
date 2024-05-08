@@ -1,6 +1,7 @@
 .EXPORT_ALL_VARIABLES:
 
 HTTP_HOST:=localhost:8080
+CORES?=$(shell (nproc  || sysctl -n hw.ncpu) 2> /dev/null)
 
 .PHONY: it
 it: coding-standards tests ## Runs all the targets
@@ -19,9 +20,12 @@ help: ## Displays this list of targets with descriptions
 
 .PHONY: tests
 tests: vendor ## Runs unit and end-to-end tests with phpunit/phpunit
-	vendor/bin/phpunit --configuration=tests/phpunit.xml --testsuite=unit
+	vendor/bin/paratest --processes $(CORES) --configuration=tests/phpunit.xml --testsuite=unit
 	rm -rf tests/server.log
-	tests/server start; vendor/bin/phpunit --configuration=tests/phpunit.xml --testsuite=end-to-end,visual; tests/server stop
+	tests/server start;
+	vendor/bin/paratest --processes $(CORES) --configuration=tests/phpunit.xml --testsuite=end-to-end;
+	vendor/bin/paratest --processes $(CORES) --configuration=tests/phpunit.xml --testsuite=visual;
+	tests/server stop
 
 vendor: composer.json composer.lock
 	composer validate --strict
