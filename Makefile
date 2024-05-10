@@ -20,11 +20,11 @@ help: ## Displays this list of targets with descriptions
 
 .PHONY: tests
 tests: vendor ## Runs unit and end-to-end tests with phpunit/phpunit
-	vendor/bin/paratest --processes $(CORES) --configuration=tests/phpunit.xml --testsuite=unit
+	vendor/bin/phpunit --configuration=tests/phpunit.xml --testsuite=unit
 	rm -rf tests/server.log
 	tests/server start;
-	vendor/bin/paratest --processes $(CORES) --configuration=tests/phpunit.xml --testsuite=end-to-end;
-	vendor/bin/paratest --processes $(CORES) --configuration=tests/phpunit.xml --testsuite=visual;
+	vendor/bin/phpunit --configuration=tests/phpunit.xml --testsuite=end-to-end;
+	npx playwright test
 	tests/server stop
 
 vendor: composer.json composer.lock
