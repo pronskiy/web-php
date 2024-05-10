@@ -1,4 +1,4 @@
-import {Page, test} from '@playwright/test';
+import {Page, test, expect} from '@playwright/test';
 import {execSync} from "child_process";
 import path = require('path');
 
@@ -18,61 +18,65 @@ async function processScreenshots({patterns, page}: { patterns: string[], page: 
             const url = `http://${httpHost}/${path.relative(pathToRoot, filePath)}`
 
             await page.goto(url)
-            await page.screenshot({
-                path: `tests/screenshots/${path.relative(pathToRoot, filePath)}.png`,
-                fullPage: true,
-            })
+            await expect(page).toHaveScreenshot(
+                `tests/screenshots/${path.relative(pathToRoot, filePath)}.png`,
+                {
+                    fullPage: true,
+                    timeout: 10000,
+                    stylePath: 'tests/Visual/regression_testing.css',
+                }
+            )
         }
     }
 }
 
-test('get screenshot of root pages', async ({page}) => {
+test('index.php', async ({page}) => {
     const patterns = [
-        path.join(pathToRoot, '*.php'),
+        path.join(pathToRoot, 'index.php'),
     ]
 
     await processScreenshots({patterns: patterns, page: page})
 })
 
-test('get screenshot of archive pages', async ({page}) => {
-    const patterns = [
-        path.join(pathToRoot, 'archive', '*.php'),
-    ]
-
-    await processScreenshots({patterns: patterns, page: page})
-})
-
-test('get conferences of root pages', async ({page}) => {
-    const patterns = [
-        path.join(pathToRoot, 'conferences', '*.php'),
-    ]
-
-    await processScreenshots({patterns: patterns, page: page})
-})
-
-test('get conferences of license pages', async ({page}) => {
-    const patterns = [
-        path.join(pathToRoot, 'license', '*.php'),
-    ]
-
-    await processScreenshots({patterns: patterns, page: page})
-})
-
-test('get conferences of manual pages', async ({page}) => {
-    const patterns = [
-        path.join(pathToRoot, 'manual', '*.php'),
-        path.join(pathToRoot, 'manual', 'en', '*.php'),
-    ]
-
-    await processScreenshots({patterns: patterns, page: page})
-})
-
-test('get conferences of releases pages', async ({page}) => {
-    const patterns = [
-        path.join(pathToRoot, 'releases', '*.php'),
-        path.join(pathToRoot, 'releases', '*', '*.php'),
-        path.join(pathToRoot, 'releases', '*', '*', '*.php')
-    ]
-
-    await processScreenshots({patterns: patterns, page: page})
-})
+// test('get screenshot of archive pages', async ({page}) => {
+//     const patterns = [
+//         path.join(pathToRoot, 'archive', '*.php'),
+//     ]
+//
+//     await processScreenshots({patterns: patterns, page: page})
+// })
+//
+// test('get conferences of root pages', async ({page}) => {
+//     const patterns = [
+//         path.join(pathToRoot, 'conferences', '*.php'),
+//     ]
+//
+//     await processScreenshots({patterns: patterns, page: page})
+// })
+//
+// test('get conferences of license pages', async ({page}) => {
+//     const patterns = [
+//         path.join(pathToRoot, 'license', '*.php'),
+//     ]
+//
+//     await processScreenshots({patterns: patterns, page: page})
+// })
+//
+// test('get conferences of manual pages', async ({page}) => {
+//     const patterns = [
+//         path.join(pathToRoot, 'manual', '*.php'),
+//         path.join(pathToRoot, 'manual', 'en', '*.php'),
+//     ]
+//
+//     await processScreenshots({patterns: patterns, page: page})
+// })
+//
+// test('get conferences of releases pages', async ({page}) => {
+//     const patterns = [
+//         path.join(pathToRoot, 'releases', '*.php'),
+//         path.join(pathToRoot, 'releases', '*', '*.php'),
+//         path.join(pathToRoot, 'releases', '*', '*', '*.php')
+//     ]
+//
+//     await processScreenshots({patterns: patterns, page: page})
+// })

@@ -27,6 +27,16 @@ tests: vendor ## Runs unit and end-to-end tests with phpunit/phpunit
 	npx playwright test
 	tests/server stop
 
+tests_visual:
+	tests/server start;
+	npx playwright test
+	tests/server stop
+
+tests_update_snapshots:
+	tests/server start;
+	npx playwright test --update-snapshots
+	tests/server stop
+
 vendor: composer.json composer.lock
 	composer validate --strict
 	composer install --no-interaction --no-progress
